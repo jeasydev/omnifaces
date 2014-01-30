@@ -1,0 +1,2 @@
+var OmniFaces=OmniFaces||{};
+OmniFaces.Highlight={addErrorClass:function(h,f,l){var g=document.getElementsByTagName("LABEL");var c={};for(var e=0;e<g.length;e++){var j=g[e];var k=j.htmlFor;if(k){c[k]=j}}for(var e=0;e<h.length;e++){var b=h[e];var d=document.getElementById(b);if(!d){var a=document.getElementsByName(b);if(a&&a.length){d=a[0]}}if(d){d.className+=" "+f;var j=c[d.id];if(j){j.className+=" "+f}if(l){d.focus();l=false}}}}};

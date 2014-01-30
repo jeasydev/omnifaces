@@ -1,0 +1,2 @@
+org.omnifaces.VetoAnnotatedTypeExtension
+org.omnifaces.cdi.viewscope.ViewScopeExtension
